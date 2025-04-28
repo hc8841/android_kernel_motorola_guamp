@@ -1,5 +1,5 @@
 #!/bin/sh
-
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
 # Option on whether to upload the produced build to a file hosting service [Useful for CI builds]
 UPLD=1
 	if [ $UPLD = 1 ]; then
